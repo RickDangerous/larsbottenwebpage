@@ -1,0 +1,219 @@
+/*
+Copyright (c) 2008, Supernordic
+http://www.supernordic.com/
+*/
+
+html{
+	margin: 0px;
+	padding: 0px;
+	background: #ededed;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background: #ededed;
+}
+
+
+table {
+  border-collapse: collapse;
+}
+
+p {
+	margin: 0px;
+	padding: 0px;
+    vertical-align: top;
+}
+
+#site {
+	width: 950px;
+	height: 550px;
+	position: relative;
+	background-color: #ffffff;
+	color: #000000;
+	margin: auto;
+	margin-top: 0px;
+	padding: 0px;
+	top: 0px;
+	font: 10px Trebuchet MS, arial, helvetica, sans-serif;
+    line-height: 14px;
+}
+
+#main {
+	background-color: #ffffff;
+	float: left;
+	width: 930px;
+	height: 500;
+	margin: 10px;
+}
+
+#image {
+	float: left;
+	width: 750px;
+	height: 500px;
+	margin: 0px;
+	background-color: #ffffff;
+}
+
+.menu {
+	text-align: left;
+	float: left;
+	width: 160px;
+	margin: 0px;
+	padding-left: 15px;
+	padding-right: 5px;
+	font: 11px  Trebuchet MS, arial, helvetica, sans-serif;
+	line-height: 16px;
+	color: #888888;
+	background-color: #ffffff;
+	/*text-transform: uppercase;*/
+}
+
+	
+.menu ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.menu li {
+	float: none;
+}
+
+.submenu, submenu ul {
+	float: none;
+	text-transform: capitalize;
+	text-indent: 10px;
+	line-height: 16px;
+}
+
+#submenu li {
+	float: none;
+}
+
+
+
+a:link, a:visited {
+	color:#888888;
+	text-decoration: none;
+}
+
+a:active, a:hover {
+	color:#000000;
+	text-decoration: none;
+}
+
+.description {
+	text-align: left;
+	float: none;
+	width: 160px;
+	position: absolute;
+	left: 760px;
+	bottom: 40px;
+	margin: 0px;
+	padding-left: 15px;
+	padding-right: 5px;
+	font: 11px  Trebuchet MS, arial, helvetica, sans-serif;
+	line-height: 18px;
+	color: #000000;
+	background-color: #ffffff;
+	border: hidden;
+}
+
+.descriptionHead {
+	text-transform: uppercase;
+	border-bottom: solid 1px #cccccc;
+	width: 160px;
+	float: left;
+}
+
+.descriptionText {
+	width: 160px;
+	float: left;
+
+}
+
+
+.thumbnav {
+	float: left;
+	clear: both;
+	color: #888888;
+	width: 100px;
+	height: 14px;
+	font: 11px  Trebuchet MS, arial, helvetica, sans-serif;
+	vertical-align: middle;
+	background-color: #ffffff;
+	margin-top: 6px;
+	margin-bottom: 10px;
+}
+
+
+.nav {
+	float: left;
+	clear: none;
+	color: #888888;
+	width: 550px;
+	height: 14px;
+	font: 11px  Trebuchet MS, arial, helvetica, sans-serif;
+	line-height: 14px;
+	background-color: #ffffff;
+	margin-top: 6px;
+	margin-bottom: 10px;
+}
+
+.navtext {
+	padding-bottom: 2px;
+	vertical-align: middle;
+}
+
+.line {
+    border: none;
+	line-height: 1px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	}
+
+.thumbicon {
+    border: none;
+	position: relative;
+	padding-right: 5px;
+	margin-bottom: -3px;
+	}
+
+.naviconleft {
+    border: none;
+	position: relative;
+	padding-right: 5px;
+	margin-bottom: -3px;
+	}
+	
+.naviconright {
+    border: none;
+	position: relative;
+	padding-left: 5px;
+	margin-bottom: -3px;
+	}
+
+.thumbs {
+	float: left;
+	border: none;
+	width: 138px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	}
+
+.foot {
+	clear: both;
+	padding-left: 10px;
+	height: 20px;
+	text-align: left;
+	font: 10px  Trebuchet MS, arial, helvetica, sans-serif;
+    line-height: 20px;
+	color: #888888;
+	background-color: #ededed;
+}
+
+.foot:hover {
+    color: #888888;
+}

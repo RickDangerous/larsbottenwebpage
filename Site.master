@@ -1,0 +1,40 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="keywords" content="photo, photography, advertising, fashion, editorial, reportage" />
+<meta name="description" content="Lars Botten Photography" />
+<title>Lars Botten Photography</title>
+	<link rel="stylesheet" type="text/css" href="_css/layout.css" />
+    <script type="text/javascript" src="_js/prototype.js"></script>
+    <script type="text/javascript" src="_js/scriptaculous.js"></script>
+</head>
+
+<body>
+
+<div id="site" class="site">
+    <div id="main" class="main">
+        <div id="image" class="image">
+            <asp:ContentPlaceHolder ID="Master_Content" runat="server" />
+        </div>
+        <div id="menu" class="menu">
+            <a href="Default.aspx"><img src="_img/logo.png" width="160" height="86" border="0" alt="Lars Botten Photography" /></a><br />
+            <ul>
+                <%=EVIL_HTML_OF_DOOM %>
+                <li><a href="Contact.aspx">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="description">
+            <asp:ContentPlaceHolder ID="Master_Content_Description" runat="server" />
+        </div>
+        <asp:ContentPlaceHolder ID="Master_Content_Navigation" runat="server" />
+    </div>
+    <div class="foot">All pictures on this site are copyrighted by Botten Photography AS</div>
+</div>
+</body>
+</html>
+
+

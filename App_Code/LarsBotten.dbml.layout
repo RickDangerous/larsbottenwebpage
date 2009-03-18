@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LarsBotten">
+  <DataContextMoniker Name="/LarsBottenDataContext" />
+  <nestedChildShapes>
+    <classShape Id="3acb3221-0b5b-4682-906a-2a05092b0ae1" absoluteBounds="0.75, 0.5, 2, 1.4248478190104166">
+      <DataClassMoniker Name="/LarsBottenDataContext/UsersTBL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="760a6f3a-508a-4ae1-a8a9-a3fcad5a9db8" absoluteBounds="0.765, 0.96, 1.9700000000000002, 0.86484781901041674" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cc8b268a-e666-4570-8f42-8aa9f4378559" absoluteBounds="3.75, 0.5, 2, 3.8900577799479166">
+      <DataClassMoniker Name="/LarsBottenDataContext/CellsTBL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6481a435-4268-47ea-a956-ec1812c87f25" absoluteBounds="3.765, 0.96, 1.9700000000000002, 3.3300577799479165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2ce8dcc1-cc13-4ab3-a45f-520f8ea7747e" absoluteBounds="0.75, 2.375, 2, 1.5891951497395827">
+      <DataClassMoniker Name="/LarsBottenDataContext/CellNotesTBL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f1e78fe3-a779-498e-bf03-b8dbb83abb5f" absoluteBounds="0.765, 2.835, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7eff466a-5c82-4c08-a3ef-564adceae666" absoluteBounds="6.75, 3.125, 2, 2.5752791341145826">
+      <DataClassMoniker Name="/LarsBottenDataContext/ContactsTBL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8f6928bf-8d90-42e1-8066-671308ee381d" absoluteBounds="6.7650000000000006, 3.585, 1.9700000000000002, 2.015279134114583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3e2c7b3c-7560-4e45-adce-70ec5b66dcdb" absoluteBounds="6.75, 0.5, 2, 2.2465844726562505">
+      <DataClassMoniker Name="/LarsBottenDataContext/ImagesTBL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="785025e7-fda4-4a17-b6c7-fc98fab9195a" absoluteBounds="6.765, 0.96, 1.9700000000000002, 1.68658447265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="03b18893-fe53-4413-a9ec-bbdd6280f7b8" absoluteBounds="0.75, 4.5, 2, 1.5891951497395827">
+      <DataClassMoniker Name="/LarsBottenDataContext/ImageNotesTBL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1248348e-7fee-4a5f-9bc9-9c612586dfac" absoluteBounds="0.76499999999999968, 4.96, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

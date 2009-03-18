@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="LarsBotten" Class="LarsBottenDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=217.144.242.213;Initial Catalog=LarsBotten;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="LarsBottenConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.[User]" Member="UsersTBLs">
+    <Type Name="UsersTBL">
+      <Column Name="user_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="username" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="password" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="accesslevel" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Cell" Member="CellsTBLs">
+    <Type Name="CellsTBL">
+      <Column Name="cell_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="parent_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ingress" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="description" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="priority" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="active" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="credit_1_t" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="credit_1" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="credit_2_t" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="credit_2" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="credit_3_t" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="credit_3" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="credit_4_t" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="credit_4" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="credit_5_t" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="credit_5" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="credit_6_t" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="credit_6" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CellNote" Member="CellNotesTBLs">
+    <Type Name="CellNotesTBL">
+      <Column Name="cellnote_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="cell_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="author" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="date" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="note" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Contact" Member="ContactsTBLs">
+    <Type Name="ContactsTBL">
+      <Column Name="contact_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="address" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="postnumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="place" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="country" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="phone" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fax" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="www" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="priority" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Image" Member="ImagesTBLs">
+    <Type Name="ImagesTBL">
+      <Column Name="image_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="cell_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="promote_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ingress" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="description" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="active" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="priority" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="promotepriority" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ImageNote" Member="ImageNotesTBLs">
+    <Type Name="ImageNotesTBL">
+      <Column Name="imagenote_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="image_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="author" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="date" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="note" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
